@@ -1,0 +1,22 @@
+<resources>
+  <string name="app_name">Booster</string>
+  <string name="title_activity_maps">Map</string>
+  <string name="enable_location_access">Loaction</string>
+  <string name="enable_location_access_text">Enable location services....</string>
+  <string name="yes">Yes</string>
+  <string name="no">No</string>
+  <string name="next">NEXT</string>
+  <string name="regular87">Regular 87</string>
+  <string name="premium91">Premium 91</string>
+  <string name="order_a_boost">Order a boost</string>
+  <string name="zoom_and_pin">Zoom and pin map to pin exact spot</string>
+  <string name="select_fuel_grade">Select the fuel grade</string>
+  <string name="car_pin_not_set">Car Location not set!</string>
+  <string name="select_deliverytime">When would you like the boost</string>
+  <string name="morning">Morning</string>
+  <string name="afternoon">Afternoon</string>
+  <string name="select_payment_type">Select a payment method</string>
+  <string name="select_cancel">Cancel the boost</string>
+  <string name="cancel_title">Cancel boost?</string>
+  <string name="cancel_question">Are you sure you want to cancel the boost?</string>
+</resources>

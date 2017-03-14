@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+      android:id="@+id/textViewDeliveryTime"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="18dp"
+      android:text="@string/select_deliverytime"
+      style="@style/TextAppearance.AppCompat.Headline"
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/textViewDeliveryTime"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="18dp"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:id="@+id/holderDeliveryTime"
+      >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:text="@string/morning"
+
+        style="@style/TextAppearance.AppCompat.Medium"
+        />
+    <Switch
+        android:id="@+id/switchTime"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:checked="false"
+        android:textOff="          "
+        android:textOn= "          "
+        android:scaleX="1"
+        android:scaleY="1"
+        android:showText="true"
+
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/afternoon"
+        style="@style/TextAppearance.AppCompat.Medium"
+        />
+  </LinearLayout>
+
+
+  <TextView
+      android:id="@+id/textViewFuelType"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/holderDeliveryTime"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="18dp"
+      android:text="@string/select_fuel_grade"
+      style="@style/TextAppearance.AppCompat.Headline"
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/textViewFuelType"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="18dp"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:id="@+id/holderFuelType"
+      >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:text="@string/regular87"
+        style="@style/TextAppearance.AppCompat.Medium"
+        />
+    <Switch
+        android:id="@+id/switchFuelType"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:checked="false"
+        android:textOff="          "
+        android:textOn= "          "
+        android:scaleX="1"
+        android:scaleY="1"
+        android:showText="true"
+
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/premium91"
+        style="@style/TextAppearance.AppCompat.Medium"
+        />
+  </LinearLayout>
+
+  <TextView
+      android:id="@+id/textViewPaymentType"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/holderFuelType"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="18dp"
+      android:text="@string/select_payment_type"
+      style="@style/TextAppearance.AppCompat.Headline"
+      />
+  <Spinner
+      android:id="@+id/spinner"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/textViewPaymentType"
+      style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+      android:layout_alignLeft="@+id/textViewPaymentType"
+      android:layout_alignRight="@id/textViewPaymentType"
+      android:layout_marginTop="10dp"
+      />
+  <Button
+      android:id="@+id/btnNext"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:text="@string/select_payment_type"
+      style="@style/Base.Widget.AppCompat.Button.Colored"
+      />
+
+</RelativeLayout>

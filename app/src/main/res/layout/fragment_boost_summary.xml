@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:gravity="top|center"
+      >
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_marginTop="18dp"
+      android:text="Delivery Window"
+      style="@style/TextAppearance.AppCompat.Headline"
+      />
+  <TextView
+      android:id="@+id/textViewDeliveryTime"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_marginTop="10dp"
+
+      style="@style/TextAppearance.AppCompat.Medium"
+      />
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_marginTop="30dp"
+      android:text="Selected Fuel Grade"
+      style="@style/TextAppearance.AppCompat.Headline"
+      />
+  <TextView
+      android:id="@+id/textViewFuelType"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_marginTop="25dp"
+
+      style="@style/TextAppearance.AppCompat.Medium"
+      />
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_marginTop="30dp"
+      android:text="Selected Payment Method"
+      style="@style/TextAppearance.AppCompat.Headline"
+      />
+  <TextView
+      android:id="@+id/textViewPaymentMethod"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_marginTop="25dp"
+
+      style="@style/TextAppearance.AppCompat.Medium"
+      />
+
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_marginTop="30dp"
+      android:text="What next"
+      style="@style/TextAppearance.AppCompat.Headline"
+      />
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="....generic text ......"
+      android:layout_marginTop="25dp"
+
+      style="@style/TextAppearance.AppCompat.Medium"
+      />
+
+  </LinearLayout>
+  <Button
+      android:id="@+id/btnNext"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:text="@string/select_cancel"
+      style="@style/Base.Widget.AppCompat.Button.Colored"
+      />
+</RelativeLayout>
